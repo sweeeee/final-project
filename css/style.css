@@ -49,6 +49,26 @@ nav ul li {
   color: #000000;
 }
 
+.bg-text {
+    margin: 0 auto;
+    overflow: hidden;
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+}
+.bg-text:after {
+    font-family: open sans;
+    font-weight: 700;
+    color: #efefef;
+    content: attr(data-bg-text);
+    display: block;
+    font-size: 130px;
+    line-height: 1;
+    position: absolute;
+    top: 120px;
+    right: 200px;
+}
+
 h2 {
   margin-left: 200px;
   margin-right: 200px;
@@ -58,6 +78,15 @@ h2 {
   line-height: 45px;
   color: #8C8C8C;
   align-content: center;
+}
+
+b {
+  color: black;
+}
+
+u {
+  text-decoration: none;
+  border-bottom: solid 5px #e6c4ff;
 }
 
 .portfolio {
@@ -134,7 +163,6 @@ img {
   margin-left: 200px;
   margin-right: 200px;
 }
-
 
 .about {
   height: 700px;
