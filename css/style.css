@@ -208,7 +208,7 @@ h5 {
 }
 
 .footer {
-  height: 180px;
+  height: 200px;
   margin: auto;
 }
 
@@ -227,13 +227,15 @@ h4 {
 }
 
 .left {
-  display: inline;
+  display: inline-block;
   padding-top: 130px;
 }
 
 .right {
-  display: inline;
+  display: inline-block;
   padding-top: 130px;
+  text-align: right;
+  border-bottom: solid 5px #e6c4ff;
 }
 
 /* form css*/
