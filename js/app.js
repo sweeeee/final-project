@@ -1,10 +1,33 @@
-$('a').click(function(){
+$(document).ready(function(){
+  $('a').click(function(){
     $('body').animate({
         scrollTop: $( $(this).attr('href') ).offset().top }, 900);
     return false;
 });
+});
 
-// $("#contact").click(function() {
-//   $("#contactform").style.display="block";
-//   $("#contactform").show();
-// });
+$(document).ready(function(){
+  $("#contactForm").on('click', function(event) {
+    event.preventDefault();
+    $(".form").show();
+  });
+});
+
+$(document).ready(function(){
+  $('.form-close').click(function(){
+    $('i').toggleClass('rotate');
+
+  });
+
+  $('.form-close').click(function(){
+    $('.form-close').toggleClass('.form-close');
+  });
+
+});
+
+$(document).ready(function(){
+  $(".form-close").on('click', function(event) {
+    event.preventDefault();
+    $(".form").hide('slow');
+  });
+});

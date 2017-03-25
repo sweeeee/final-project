@@ -5,6 +5,7 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>sweehan-mok design</title>
   <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,300,600,800' rel='stylesheet' type='text/css'>
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <link rel="stylesheet" href="css/style.css">
   <script defer src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js" charset="utf-8"></script>
   <script defer src="js/app.js" charset="utf-8"></script>
@@ -17,13 +18,13 @@
       <ul>
         <li><a href="#portfolio">portfolio</a></li>
         <li><a href="#about">about</a></li>
-        <li><a href="#contact">contact</a></li>
+        <li><a href="#contactForm" id="contactForm">contact</a></li>
       </ul>
     </nav>
   </div>
 
     <h2><b>Hi.</b> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio iusto ipsam porro non, ratione blanditiis tenetur, <u>aliquid aspernatur</u>! Lorem ipsum dolor sit amet, <u>consectetur adipisicing</u> elit. Dolorum non rem! Lorem <u>ipsum dolor</u> sit amet, consectetur adipisicing elit. Harum quasi ratione ipsa veniam aperiam consequatur, debitis <u>provident beatae</u> delectus non cum voluptatum.</h2>
-    <div class="bg-text" data-bg-text="design."></div>
+    <div class="bg-text" data-bg-text="design&hearts;"></div>
   </section>
 
 <section id="portfolio" class="portfolio">
@@ -66,6 +67,8 @@
 
       <p class="mytext">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo consectetur reprehenderit inventore, iste pariatur, sunt ipsam. Optio harum minus earum aut laborum doloremque aliquid, repellat velit explicabo odit, nemo magni. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam facere temporibus veritatis maiores illum consequuntur a ipsa dolorum iste error at ab, unde dolorem, earum vel dolore, blanditiis explicabo! Amet. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum neque ratione culpa sequi, eveniet consequuntur porro quidem voluptatibus necessitatibus est molestiae, voluptas. Ratione, impedit ex fugiat sunt adipisci perferendis veritatis!</p>
 
+      <!-- <p class="mytext"><u><a href="" id="contactForm">Let's work together!</a></u></p> -->
+
       <div class="parent-about">
         <div class="wrapper-about">
           <img class="image-about" src="images/tardis.jpg"/>
@@ -83,10 +86,10 @@
   </div>
 </section>
 
-  <div id="contactform" class="form">
-  <div class="wrapper">
-  <h1 class="formheader">SAY HELLO!</h1>
-  <p>Fill up the form below and we'll be in touch (:</p>
+  <div id="contact" class="form">
+    <div class="wrapperForm">
+      <h1 class="formheader">SAY HELLO!</h1>
+        <p>Fill up the form below and we'll be in touch (:</p>
   <form class="" action="https://formspree.io/sweehan.mok@gmail.com" method="post">
     <label for="Customer Name">What's your name?</label>
     <input name="Customer Name" type="text" required/>
@@ -97,7 +100,9 @@
     <label for="Message">What's up?</label>
     <textarea name="Message" id="box" cols="30" rows="10" placeholder="Please type your message here! (:)"></textarea>
     <button type="submit">Submit</button>
-  </form>
+      <p class="form-close">
+      <i class="material-icons">add</i></p>
+    </form>
   </div>
 </div>
 

@@ -45,7 +45,7 @@ nav ul li {
   list-style-type: none;
   font-weight: 300;
   font-size: 14px;
-  padding: 5 5 0 0rem;
+  padding: 10 10 0 0rem;
   color: #000000;
 }
 
@@ -173,7 +173,6 @@ h5 {
   margin-left: 200px;
   margin-right: 200px;
   padding-top: 50px;
-  padding-bottom: 30px;
   font-weight: 300;
   font-size: 20px;
   line-height: 50px;
@@ -188,6 +187,7 @@ h5 {
   text-align: left;
   font-size: 15px;
   line-height: 25px;
+  padding-top: 20px;
 }
 
 .parent-about {
@@ -238,6 +238,7 @@ h4 {
 
 /* form css*/
 .form {
+  margin: auto;
   display: none;
   background-color: white;
   align-items: center;
@@ -248,6 +249,7 @@ h4 {
   top: 0;
   width: 100vw;
   height: 100vh;
+  opacity: 0.9;
 }
 
 .formheader {
@@ -260,6 +262,7 @@ h4 {
 p {
   text-align: center;
   color: #999999;
+  padding-top: 20px;
 }
 
 form {
@@ -276,7 +279,7 @@ label {
 }
 
 input {
-  /*margin: auto;*/
+  margin: auto;
   margin-top: 20px;
   width: 600px;
   height: 20px;
@@ -292,7 +295,7 @@ input:focus {
 }
 
 #box {
-  /*margin: auto;*/
+  margin: auto;
   margin-top: 10px;
   border-radius: 5px;
   border: 1px solid #999999;
@@ -326,7 +329,32 @@ button {
 }
 
 button:hover {
-  background-color: #1673ff;
-  color: white;
+  background-color: #e6c4ff;
   cursor: hand;
+}
+
+.form-close {
+  background: none;
+  border: none;
+  /*transition: background-color 3s;*/
+}
+
+i {
+  transition: transform 0.3s;
+}
+
+.rotate {
+  transform: rotate(45deg);
+}
+
+.form-close:hover {
+  color: black;
+  outline: none;
+  cursor: hand;
+  transform: rotate(405deg);
+  transition: transform 0.5s;
+}
+
+i:hover {
+  outline: none;
 }
