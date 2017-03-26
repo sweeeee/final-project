@@ -1,3 +1,5 @@
+/*desktop view*/
+
 * {
   margin: 0;
   padding: 0;
@@ -360,3 +362,172 @@ i {
 i:hover {
   outline: none;
 }
+
+/*mobile view*/
+
+   @media (max-width: 400px) {
+
+     * {
+       margin: 0;
+     }
+
+     #home {
+       margin-left: 50px;
+     }
+
+     .flex {
+      flex-basis: 100%;
+      justify-content: space-between;
+     }
+
+    .wrapper {
+      margin-left: 0px;
+      margin-right: 0px;
+      align-items: flex-end;
+    }
+
+    nav ul li {
+      display: inline-block;
+      align-items: flex-end;
+      padding: 5 5 0 0rem;
+    }
+
+     .first-panel{
+      /*margin-left: 50px;*/
+      /*margin-right: 50px;*/
+      max-width: 350px;
+      height: 100vh;
+     }
+
+     h2 {
+       margin-left: 50px;
+       margin-right: 50px;
+       width: 90%;
+       padding-top: 120px;
+       font-weight: 300;
+       font-size: 20px;
+       line-height: 35px;
+       /*align-content: center;*/
+     }
+
+      .bg-text:after {
+        font-size: 90px;
+        letter-spacing: -5px;
+        top: 6px;
+        right: 0px;
+      }
+
+      .portfolio {
+        justify-content: center;
+        height: 2000px;
+      }
+
+      h3 {
+        padding-left: 50px;
+        padding-top: 20px;
+      }
+
+      .parent {
+        display: flex;
+        flex-direction: column;
+        padding-top: 50px;
+        margin-left: 50px;
+        margin-right: 50px;
+        height: 100vh;
+      }
+
+      #wrapper {
+        flex-basis: 100%;
+        position: relative;
+      }
+
+      img {
+        max-width: 400px;
+      }
+
+      .text {
+        padding-top: 25px;
+        padding-left: 25px;
+        font-weight: 600;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        right: 0;
+        left: 0;
+      }
+
+      .text p {
+        padding-top: 8px;
+        padding-right: 10px;
+        font-size: 15px;
+      }
+
+      .parent2 {
+        display: flex;
+        flex-direction: column;
+        padding-top: 150px;
+        margin-left: 50px;
+        margin-right: 50px;
+        height: 100vh;
+      }
+
+      .about {
+        height: 1500px;
+      }
+
+      h5 {
+        margin-left: 50px;
+        padding-top: 20px;
+      }
+
+      .mytext {
+        margin-left: 50px;
+        margin-right: 50px;
+      }
+
+      .parent-about {
+        display: flex;
+        padding-top: 50px;
+        margin-left: 0px;
+        margin-right: 50px;
+        height: 100vh;
+        width: 400px;
+      }
+
+      .wrapper-about {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        margin-left: 50px;
+        margin-right: 50px;
+        padding-top: 120px;
+        width: 600px;
+      }
+
+      .image-about {
+        padding-top: 0;
+        max-width: 600px;
+      }
+
+      .footer {
+        height: 200px;
+        margin: auto;
+      }
+
+      .flexbox {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin-left: 50px;
+        margin-right: 50px;
+      }
+
+      input {
+        width: 300px;
+      }
+
+      #box {
+        width: 300px;
+      }
+
+   }
