@@ -447,7 +447,7 @@ i:hover {
     .parent2 {
       display: flex;
       flex-direction: column;
-      padding-top: 570px;
+      padding-top: 560px;
       margin-left: 80px;
       margin-right: 80px;
       height: 100vh;
@@ -519,6 +519,7 @@ i:hover {
 
      #home {
        margin-left: 50px;
+       margin-right: 0px;
      }
 
      .flex {
@@ -614,8 +615,8 @@ i:hover {
         height: 100vh;
       }
 
-      .about {
-        height: 1500px;
+      #about {
+        height: 1400px;
       }
 
       h5 {
@@ -634,8 +635,7 @@ i:hover {
         padding-top: 50px;
         margin-left: 0px;
         margin-right: 50px;
-        height: 100vh;
-        width: 400px;
+        width: 300px;
       }
 
       .wrapper-about {
@@ -645,12 +645,12 @@ i:hover {
         margin-left: 50px;
         margin-right: 50px;
         padding-top: 120px;
-        width: 600px;
+        width: 300px;
       }
 
       .image-about {
         padding-top: 0;
-        max-width: 600px;
+        max-width: 300px;
       }
 
       .footer {
