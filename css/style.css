@@ -365,7 +365,7 @@ i:hover {
 
 /*mobile view*/
 
-   @media (max-width: 375px) {
+   @media (max-width: 400px) {
 
      * {
        margin: 0;
