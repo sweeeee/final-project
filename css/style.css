@@ -148,15 +148,21 @@ img {
   text-align: left;
   transition: opacity 0.5s ease-out;
   opacity: 0;
-  cursor: hand;
 }
 
 .text p {
   padding-top: 12px;
+  padding-bottom: 130px;
   font-size: 15px;
   line-height: 25px;
   text-align: left;
   font-weight: 100;
+}
+
+.read-more {
+  border-bottom: solid 1px #FFFFFF;
+  padding-top: 200px;
+  cursor: hand;
 }
 
 .parent2 {
