@@ -1,7 +1,7 @@
 $(document).ready(function(){
   $('a').click(function(){
     $('body').animate({
-        scrollTop: $( $(this).attr('href') ).offset().top }, 900);
+        scrollTop: $( $(this).attr('href') ).offset().top - 60 }, 900);
     return false;
 });
 });
@@ -9,7 +9,7 @@ $(document).ready(function(){
 $(document).ready(function(){
   $("#contactForm").on('click', function(event) {
     event.preventDefault();
-    $(".form").show();
+    $(".form").show('slow');
   });
 });
 

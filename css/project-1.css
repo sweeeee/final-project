@@ -1,0 +1,251 @@
+* {
+  margin: 0;
+}
+
+.project-header {
+  z-index: 2;
+  background-color: white;
+  /*position: fixed;*/
+  padding-bottom: 10px;
+  width: 100%;
+  opacity: 0.9;
+}
+
+.project-1-first-panel {
+  padding-top: 180;
+  margin: auto;
+  width: 1000px;
+  height: 450px;
+}
+
+h2 {
+  color: black;
+}
+
+ul li {
+  padding-left: 0;
+  display: inline-block;
+  list-style-type: none;
+  padding: 20 20 0 0rem;
+  color: black;
+}
+
+.parallax1, .parallax2, .parallax3, .parallax4 {
+  height: 100vh;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.parallax1 {
+  background-image: url('http://a.espncdn.com/photo/2014/0527/mag_suarez01_aw_1600x900.jpg');
+}
+
+.parallax2 {
+  background-image: url('http://a.espncdn.com/photo/2014/0527/mag_suarez02_aw_1600x900.jpg');
+}
+
+.parallax3 {
+  background-image: url('http://a.espncdn.com/photo/2014/0527/mag_suarez03_aw_1600x900.jpg');
+}
+
+.parallax4 {
+  background-image: url('http://a.espncdn.com/photo/2014/0527/mag_suarez04_aw_1600x900.jpg');
+}
+
+.project-description {
+  max-width: 1000px;
+  margin: auto;
+  height: 700px;
+}
+
+.project-brief {
+  font-weight: 600;
+  color: black;
+  text-align: left;
+  padding-top: 100px;
+  padding-bottom: 0px;
+}
+
+h3 {
+  padding-top: 20px;
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 25px;
+  color: black;
+  margin: auto;
+}
+
+.project-parent {
+  display: flex;
+  margin: auto;
+  max-width: 1000px;
+}
+
+.project-wrapper {
+  flex-direction: column;
+  justify-content: center;
+  padding-top: 0px;
+}
+
+.image-project-about {
+  width: 100%;
+}
+
+.footer {
+  height: 100px;
+  margin: auto;
+  max-width: 1000px;
+}
+
+.flexbox {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+h4 {
+  font-size: 14px;
+  font-weight: 300;
+  color: #000000;
+}
+
+.left {
+  display: inline-block;
+  padding-top: 0px;
+}
+
+.right {
+  display: inline-block;
+  padding-top: 0px;
+  text-align: right;
+  border-bottom: solid 2px #e6c4ff;
+}
+
+/* form css*/
+.form {
+  z-index: 100;
+  margin: auto;
+  display: none;
+  background-color: white;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100vw;
+  height: 100vh;
+  opacity: 0.95;
+}
+
+.formheader {
+  text-align: center;
+  font-size: 34px;
+  font-weight: 300;
+  color: black;
+}
+
+p {
+  text-align: center;
+  color: #999999;
+  padding-top: 20px;
+}
+
+form {
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: #999999;
+}
+
+
+label {
+  margin-top: 15px;
+  margin-bottom: 5px;
+  text-align: center;
+}
+
+input {
+  margin: auto;
+  margin-top: 20px;
+  width: 600px;
+  height: 20px;
+  border: none;
+  border-bottom: 1px solid #999999;
+  text-align: center;
+  color: #676767;
+  background-color: none;
+  font-size: 13px;
+  font-weight: 300;
+}
+
+input:focus {
+  outline: none;
+}
+
+#box {
+  margin: auto;
+  margin-top: 10px;
+  border-radius: 5px;
+  border: 1px solid #999999;
+  width: 600px;
+  height: 200px;
+  font-family: open sans;
+  padding-top: 5px;
+  padding-left: 10px;
+  text-align: center;
+  color: #676767;
+  background-color: none;
+  font-size: 13px;
+}
+
+#box:focus {
+  outline: none;
+}
+
+button {
+  margin: auto;
+  margin-top: 30px;
+  width: 100px;
+  height: 30px;
+  border-radius: 5px;
+  text-align: center;
+  background-color: white;
+  border: 1px solid #999999;
+  color: #999999;
+  display: block;
+  justify-content: center;
+  transition-duration: 0.4s;
+}
+
+button:hover {
+  background-color: #e6c4ff;
+  cursor: hand;
+}
+
+.form-close {
+  background: none;
+  border: none;
+  /*transition: background-color 3s;*/
+}
+
+i {
+  transition: transform 0.3s;
+}
+
+.rotate {
+  transform: rotate(45deg);
+}
+
+.form-close:hover {
+  color: black;
+  outline: none;
+  cursor: hand;
+  transform: rotate(405deg);
+  transition: transform 0.5s;
+}
+
+i:hover {
+  outline: none;
+}
