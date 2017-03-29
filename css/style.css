@@ -104,16 +104,18 @@ b {
   background-color: #F7F7F7;
   height: 950px;
   padding-top: 30px;
+  width: 100%;
 }
 
 h3 {
+  max-width: 1000px;
+  margin: auto;
   padding-top: 50px;
   padding-bottom: 50px;
   font-weight: 300;
   font-size: 20px;
   line-height: 50px;
   color: #000000;
-  align-content: center;
   text-align: left;
 }
 
