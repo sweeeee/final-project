@@ -14,12 +14,14 @@
 .project-1-first-panel {
   padding-top: 180;
   margin: auto;
-  width: 1000px;
+  max-width: 1000px;
   height: 450px;
 }
 
 h2 {
   color: black;
+  max-width: 700px;
+  margin: 0;
 }
 
 ul li {
@@ -248,4 +250,147 @@ i {
 
 i:hover {
   outline: none;
+}
+
+/*tablet view*/
+
+@media (max-width: 600px) {
+  *{
+    margin: 0;
+  }
+
+  .flex {
+    flex-basis: 100%;
+    justify-content: space-between;
+  }
+
+  .wrapper {
+    margin: auto;
+    max-width: 500px;
+    align-items: flex-end;
+  }
+
+  nav ul li {
+    display: inline-block;
+    align-items: flex-end;
+    padding: 10 0 0 1.2rem;
+  }
+
+  .project-1-first-panel {
+    max-width: 500px;
+    height: 460px;
+  }
+
+  .project-brief {
+    max-width: 500px;
+    margin: auto;
+  }
+
+  .project-parent {
+    display: flex;
+    margin: auto;
+    max-width: 500px;
+  }
+
+  .project-wrapper {
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .image-project-about {
+    width: 100%;
+  }
+
+  .footer {
+    max-width: 500px;
+    margin: auto;
+  }
+
+  .flexbox {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  input {
+    width: 400px;
+  }
+
+  #box {
+    width: 400px;
+  }
+
+}
+
+/*mobile view*/
+
+@media (max-width: 400px) {
+
+    * {
+      margin: 0;
+    }
+
+    .flex {
+      flex-basis: 100%;
+      justify-content: space-between;
+    }
+
+    .wrapper {
+      margin: auto;
+      max-width: 300px;
+      align-items: flex-end;
+    }
+
+    nav ul li {
+      display: inline-block;
+      align-items: flex-end;
+      padding: 5 0 0 0.8rem;
+    }
+
+    .project-1-first-panel {
+      max-width: 300px;
+      margin: auto;
+    }
+
+    .project-description {
+      height: 1600px;
+    }
+
+    .project-brief {
+      max-width: 300px;
+      margin: auto;
+    }
+
+    .project-parent {
+      display: flex;
+      flex-direction: column;
+      margin: auto;
+      max-width: 300px;
+    }
+
+    .image-project-about {
+      width: 100%;
+    }
+
+    .footer {
+      max-width: 300px
+      margin: auto;
+    }
+
+    .flexbox {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      margin-left: 50px;
+      margin-right: 50px;
+    }
+
+    input {
+      width: 300px;
+    }
+
+    #box {
+      width: 300px;
+    }
+
 }
