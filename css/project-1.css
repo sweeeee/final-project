@@ -39,19 +39,19 @@ ul li {
 }
 
 .parallax1 {
-  background-image: url('http://a.espncdn.com/photo/2014/0527/mag_suarez01_aw_1600x900.jpg');
+  background-image: url('../images/74422212_stretched.jpg');
 }
 
 .parallax2 {
-  background-image: url('http://a.espncdn.com/photo/2014/0527/mag_suarez02_aw_1600x900.jpg');
+  background-image: url('../images/200186431-001_stretched.jpg');
 }
 
 .parallax3 {
-  background-image: url('http://a.espncdn.com/photo/2014/0527/mag_suarez03_aw_1600x900.jpg');
+  background-image: url('../images/200491762-001_stretched.jpg');
 }
 
 .parallax4 {
-  background-image: url('http://a.espncdn.com/photo/2014/0527/mag_suarez04_aw_1600x900.jpg');
+  background-image: url('../images/128607416_stretched.jpg');
 }
 
 .project-description {
