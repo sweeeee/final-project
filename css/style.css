@@ -36,7 +36,6 @@ a:hover {
   margin: auto;
   max-width: 1000px;
   align-items: flex-end;
-
 }
 
 h1 {
@@ -59,7 +58,9 @@ nav ul li {
   max-width: 1000px;
   margin: auto;
   padding-top: 280px;
-  height: 465px;
+  padding-bottom: 80px;
+  height: 400px;
+  position: relative;
 }
 
 h2 {
@@ -75,15 +76,9 @@ b {
   color: black;
 }
 
-/*u {
-  text-decoration: none;
-  border-bottom: solid 5px #e6c4ff;
-}*/
-
 .bg-text {
     margin: 0 auto;
     overflow: hidden;
-    /*position: absolute;*/
 }
 
 .bg-text:after {
@@ -96,7 +91,7 @@ b {
     line-height: 1;
     position: absolute;
     bottom: 0px;
-    right: 200px;
+    right: 0px;
 }
 
 .portfolio {
@@ -121,6 +116,8 @@ h3 {
 
 .parent {
   display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
   justify-content: center;
   max-width: 1000px;
   margin: auto;
@@ -133,6 +130,7 @@ img {
 #wrapper {
   padding: 0;
   position: relative;
+  flex-basis: 33.33%;
 }
 
 #wrapper:hover .text {
@@ -143,6 +141,7 @@ img {
 .text {
   padding-top: 30px;
   padding-left: 30px;
+  padding-right: 30px;
   font-weight: 600;
   visibility: hidden;
   z-index: 1;
@@ -169,17 +168,18 @@ img {
 }
 
 .read-more {
-  /*border-bottom: solid 1px #FFFFFF;*/
-  padding-top: 200px;
+  position: absolute;
+  left: 25px;
+  bottom: 25px;
   cursor: hand;
 }
 
-.parent2 {
+/*.parent2 {
   display: flex;
   justify-content: center;
   max-width: 1000px;
   margin: auto;
-}
+}*/
 
 .about {
   height: 700px;
@@ -223,8 +223,9 @@ h5 {
 
 .footer {
   height: 200px;
-  margin: auto;
   max-width: 1000px;
+  margin: auto;
+
 }
 
 .flexbox {
@@ -242,6 +243,7 @@ h4 {
 .left {
   display: inline-block;
   padding-top: 130px;
+  text-align: left;
 }
 
 .right {
@@ -425,7 +427,7 @@ i:hover {
 
     .portfolio {
       justify-content: center;
-      height: 3200px;
+      height: 1000px;
       width: 100%;
     }
 
@@ -438,8 +440,8 @@ i:hover {
 
     .parent {
       display: flex;
-      flex-direction: column;
-      padding-top: 480px;
+      flex-direction: row;
+      flex-wrap: wrap;
       max-width: 500px;
       height: 500px;
       margin: auto;
@@ -447,16 +449,12 @@ i:hover {
 
     #wrapper {
       flex-basis: 50%;
-      position: relative;
     }
 
-    .parent2 {
-      display: flex;
-      flex-direction: column;
-      padding-top: 1000px;
-      max-width: 500px;
-      height: 500px;
-      margin: auto;
+    .text {
+      padding-top: 25px;
+      padding-left: 25px;
+
     }
 
     #about {
@@ -568,8 +566,8 @@ i:hover {
 
       .parent {
         display: flex;
-        flex-direction: column;
-        padding-top: 300px;
+        flex-direction: row;
+        flex-wrap: wrap;
         height: 300px;
         max-width: 300px;
         margin: auto;
